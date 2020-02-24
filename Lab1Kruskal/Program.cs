@@ -10,8 +10,8 @@ namespace Lab1Kruskal
         private static void Main() 
         {
             //Uncomment what you want to test
-            //TestKruskal();
-            TestDsu();
+            TestKruskal();
+            //TestDsu();
         }
 
         private static void TestDsu()

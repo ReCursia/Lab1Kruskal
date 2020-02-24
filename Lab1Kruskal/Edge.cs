@@ -1,6 +1,8 @@
-﻿namespace Lab1Kruskal
+﻿using System;
+
+namespace Lab1Kruskal
 {
-    public class Edge
+    public class Edge : IComparable<Edge>
     {
         public Edge(int from, int to, int weight)
         {
@@ -14,5 +16,10 @@
         public int To { get; }
 
         public int Weight { get; }
+
+        public int CompareTo(Edge other)
+        {
+            return Weight.CompareTo(other.Weight);
+        }
     }
 }
