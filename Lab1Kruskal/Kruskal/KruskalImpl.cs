@@ -18,7 +18,7 @@ namespace Lab1Kruskal.Kruskal
         {
             var result = new List<Edge>();
 
-            edges.Sort();
+            edges.Sort(); 
 
             for (var i = 0; i < amountOfVertices; i++) _dsu.MakeSet(i);
 
