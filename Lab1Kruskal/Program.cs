@@ -7,7 +7,7 @@ namespace Lab1Kruskal
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             //Uncomment what you want to test
             //TestKruskal();

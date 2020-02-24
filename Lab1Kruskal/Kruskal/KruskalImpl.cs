@@ -17,7 +17,8 @@ namespace Lab1Kruskal.Kruskal
         public List<Edge> FindMst(int amountOfVertices, List<Edge> edges)
         {
             var result = new List<Edge>();
-            result.Sort();
+
+            edges.Sort();
 
             for (var i = 0; i < amountOfVertices; i++) _dsu.MakeSet(i);
 
